@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
+    <!-- FONT AWESOME -->
+    <link
+      crossorigin="anonymous"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -12,7 +21,34 @@
       crossorigin="anonymous"
     />
   </head>
+
   <body>
-    <h1>Contact</h1>
+    <!-- Navbar with Toggler  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">John Leintz</a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbar-nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="#navbar-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <a class="navbar-brand mx-auto" href="#">Portfolio 2020&copy;</a>
+    </nav>
   </body>
 </html>
