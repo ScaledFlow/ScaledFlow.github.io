@@ -17,3 +17,37 @@ footer {
 main {
   float: right;
 }
+
+.absolute {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 0;
+  /* margin-right: 10; */
+  width: 40px;
+  height: 150px;
+}
+
+.absolute-text {
+  margin-top: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 0.5em;
+}
+
+.tag01 {
+  margin-left: 15px;
+  margin-top: 28px;
+  writing-mode: vertical-rl;
+  text-orientation: sidways;
+}
+
+.tag02 {
+  margin-left: 15px;
+  margin-top: 32px;
+  writing-mode: vertical-rl;
+  text-orientation: sidways;
+}
