@@ -16,12 +16,14 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-  </head>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
     <!-- Navbar with Toggler  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="index.html">John Leintz</a>
         <button
@@ -44,21 +46,32 @@
       </div>
     </nav>
 
-    <!-- Footer - Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark bg-dark">
+    <!-- Footer -->
+    <nav class="navbar navbar-expand fixed-bottom navbar-dark bg-dark">
       <div class="container">
-      <ul class="navbar-nav mx-auto">
-        <li>
-          <a class="navbar-brand" href="#">Portfolio 2020&copy;</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/ScaledFlow/ScaledFlow.github.io"><i class="fab fa-github-square"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://linkedin.com/in/john-leintz"><i class="fab fa-linkedin"></i></a>
-        </li>
-      </ul>
+        <ul class="navbar-nav mx-auto">
+          <li>
+            <a class="navbar-brand" href="#">Portfolio 2020&copy;</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://github.com/ScaledFlow/ScaledFlow.github.io"
+              ><i class="fab fa-github-square"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://linkedin.com/in/john-leintz"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+        </ul>
       </div>
     </nav>
+
+    <script>
+      // Get current year
+      $("#year").text(new Date().getFullYear());
+    </script>
   </body>
 </html>

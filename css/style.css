@@ -1,0 +1,19 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.clearfix::after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.floatleft {
+  float: left;
+}
+
+main {
+  float: right;
+}
