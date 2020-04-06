@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
     <!-- FONT AWESOME -->
     <link
       crossorigin="anonymous"
@@ -9,41 +13,50 @@
       rel="stylesheet"
     />
 
-    <!-- Bootstrap -->
-    <link
+<link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
-    />
+    /> 
+
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
   </head>
 
   <body>
-    <!-- Navbar with Toggler  -->
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-      <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
+      <!-- <div class="container"> -->
         <a class="navbar-brand" href="index.html">John Leintz</a>
         <button
           class="navbar-toggler"
+          type="button"
           data-toggle="collapse"
-          data-target="#navbar-nav"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="#navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link active" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
-      </div>
+      <!-- </div> -->
     </nav>
 
     <!-- Sign Board -->
