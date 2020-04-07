@@ -39,7 +39,7 @@ main {
 }
 
 .sign-board {
-  background-image: url("/cityscape.jpg");
+  background-image: url("../assets/images/cityscape.jpg");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
