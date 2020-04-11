@@ -38,7 +38,7 @@ To-do list:
 
 ## Status
 
-Project is in progress and will be updated as the portfolio grows?
+Project is in progress and will be updated as the portfolio grows.
 
 ## Contact
 
