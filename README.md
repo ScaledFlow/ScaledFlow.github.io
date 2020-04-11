@@ -26,7 +26,7 @@ Site uses HTML, CSS and Bootstrap.
 
 ## Setup
 
-The codo self contained, no setup is necessary.
+The code is self contained, no setup is necessary.
 
 ## Features
 
