@@ -18,7 +18,9 @@ Github portfolio page for John Leintz
 
 ## Screenshots
 
-![](/assets/images/portfolioscreenshot.gif)
+![](/assets/images/CodingQuizSreenOne01.GIF)
+![](/assets/images/CodingQuizScreen02.GIF)
+![](/assets/images/CodingQuizSreenOne01.GIF)
 
 ## Technologies
 
